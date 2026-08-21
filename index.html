@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">Amanda</div>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <a href="#contact" class="btn-hire">Contrate-me</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <span class="badge-tag">ESTUDANTE DE ENGENHARIA DA COMPUTAÇÃO</span>
+            <h1 class="hero-title">Olá, eu sou a <span class="highlight">Amanda</span></h1>
+            <p class="hero-subtitle">Busco transformar ideias em software de qualidade.</p>
+
+            <p class="hero-description">
+                Ainda sou estudante de Engenharia da Computação e ainda não tenho experiência profissional,
+                mas estou em busca da minha primeira oportunidade de estágio em Desenvolvimento de Software na area de Back-end.
+                e com muita vontade de aprender e contribuir com um time.
+                Conhecimentos práticos em C, Python e JavaScript.
+            </p>
+
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">Ver meu trabalho <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="Imagens/Curriculo Amanda.pdf" download="Curriculo Amanda.pdf" class="btn-secondary">Baixar Currículo <i class="fa-solid fa-download"></i></a>
+            </div>
+
+            <div class="tech-stack">
+                <span class="tech-title">TECNOLOGIAS QUE UTILIZO</span>
+                <div class="tech-icons">
+                    <i class="fa-brands fa-html5 text-orange" title="HTML5"></i>
+                    <i class="fa-brands fa-css3-alt text-blue" title="CSS3"></i>
+                    <i class="fa-brands fa-js text-yellow" title="JavaScript"></i>
+                    <i class="fa-brands fa-python text-yellow" title="Python"></i>
+                    <i class="fa-solid fa-code text-cyan" title="C"></i>
+                    <i class="fa-brands fa-git-alt text-orange" title="Git"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="profile-container">
+                <div class="purple-circle"></div>
+                <!-- TODO: troque pelo caminho da sua foto real, ex: Portifolio/Imagens/foto-perfil.jpg -->
+                <img src="Imagens/Fotodeperfil.png" alt="Amanda Teixeira Renosto" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificações (About) -->
+    <section id="about" class="certifications-section">
+        <div class="section-header">
+            <div>
+                <span class="section-tag">SOBRE MIM</span>
+                <h2>Minhas certificações</h2>
+            </div>
+            <div class="slider-controls">
+                <button id="prevBtn" class="btn-circle" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="nextBtn" class="btn-circle" aria-label="Próximo"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="cert-slider" id="certSlider">
+            <div class="cert-card">
+                <div class="cert-img-container">
+                    <img src="Imagens/Bluepex Certificated.jpg" alt="Certificado Cybersecurity" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <span class="cert-tag">BluePex Cybersecurity</span>
+                    <h4>BluePex Certified Cybersecurity Framework Professional</h4>
+                    <p>Certificação em framework de cibersegurança com 8 horas de curso.</p>
+                    <span class="cert-date">Out 2025 - Fev 2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-img-container">
+                    <img src="Imagens/Python certificate.jpg" alt="Certificado Python" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <span class="cert-tag">Santander Academy</span>
+                    <h4>Python</h4>
+                    <p>Curso de Python com 8 horas, 2 módulos e autoavaliação.</p>
+                    <span class="cert-date">Jan 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <span class="section-tag">HABILIDADES</span>
+        <h2>Tecnologias que eu utilizo</h2>
+        <p class="subtitle">Minha stack atual é focada nas linguagens e tecnologias que venho desenvolvendo durante a graduação: HTML, CSS, C, Python, JavaScript, Java, SQL, Git e GitHub.</p>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-html5 text-orange"></i> HTML</span>
+                    <span>55%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 55%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-css3-alt text-blue"></i> CSS</span>
+                    <span>55%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 55%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-code text-cyan"></i> C</span>
+                    <span>55%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 55%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-js text-yellow"></i> JavaScript</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-java text-red"></i> Java</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-python text-yellow"></i> Python</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-database text-teal"></i> SQL</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-git-alt text-orange"></i> Git</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-github text-white"></i> GitHub</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <span class="section-tag">PORTFÓLIO</span>
+        <h2>Projeto em destaque</h2>
+        <p class="subtitle">Projetos acadêmicos que estou desenvolvendo durante minha graduação.</p>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="media-container">
+                    <img src="Imagens/Midia (7).jpeg" alt="Trabalho Drone em grupo">
+                </div>
+                <div class="project-info">
+                    <h4>Trabalho Drone em grupo</h4>
+                    <p>Projeto acadêmico desenvolvido em equipe, envolvendo montagem, programação e testes de voo de um drone.</p>
+                    <button class="btn-open-modal"
+                        data-description="Trabalho em grupo desenvolvido durante a graduação em Engenharia da Computação, com foco na montagem, programação e testes de voo de um drone. O projeto envolveu integração de hardware e software, ajustes de estabilidade e trabalho colaborativo em equipe do início ao fim."
+                        data-media='["Imagens/Midia (1).jpeg", "Imagens/Midia (2).jpeg", "Imagens/Midia (2).mp4", "Imagens/Midia (3).jpeg", "Imagens/Midia (4).jpeg", "Imagens/Midia (5).jpeg", "Imagens/Midia (6).jpeg", "Imagens/Midia (7).jpeg", "Imagens/Midia (10).mp4"]'>
+                        Ver mais <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal do Projeto -->
+    <div id="projectModal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close" id="closeModal" aria-label="Fechar">&times;</button>
+
+            <div class="modal-carousel">
+                <div class="carousel-track" id="modalCarouselTrack"></div>
+                <button class="carousel-btn prev" id="modalPrevBtn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-btn next" id="modalNextBtn" aria-label="Próximo"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-dots" id="modalDots"></div>
+            </div>
+
+            <div class="modal-details">
+                <p id="modalDescription" class="modal-text">Descrição do projeto...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-left">
+                <span class="section-tag">CONTATO</span>
+                <h2>Vamos conversar?</h2>
+                <p>Estou aberta a oportunidades de estágio e projetos colaborativos. Entre em contato para conversarmos sobre como posso contribuir com o seu time.</p>
+
+                <div class="contact-buttons">
+                    <a href="mailto:amandatrenosto290@gmail.com" class="btn-primary"><i class="fa-regular fa-envelope"></i> Enviar e-mail</a>
+                    <a href="https://github.com/amandatrenosto" target="_blank" rel="noopener" class="btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/amandatrenosto" target="_blank" rel="noopener" class="btn-outline"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <!-- Ao enviar, abre o cliente de e-mail já com nome, e-mail e mensagem preenchidos (ver script.js) -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="voce@empresa.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Oportunidade de estágio">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre a oportunidade..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Enviar mensagem <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="logo">Amanda</div>
+                <p>© 2026 Amanda Teixeira Renosto. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/amandatrenosto" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/amandatrenosto" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:amandatrenosto290@gmail.com" aria-label="E-mail"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
